@@ -5,11 +5,10 @@ This work is based on the paper "On the Benefit of Combining Neural, Statistical
 
 Dataset Link: Download the repository - https://github.com/FakeNewsChallenge/fnc-1
 
-Dependencies needed:
-
-1. pip install skip-thoughts
 
 ## Current Status(please add the work that you have done till now under this section):
 
 1. Dataset creation and exploration notebooks added: Please run CreateDataset.ipynb first to create a complete train and test set. Then run the DataAnalysis.ipynb to visualize the data. Once these two steps have been completely, you would have two '.csv' files containing all the required train and test data. You can find these two '.csv' files in this folder - https://drive.google.com/drive/folders/1vXRzjXrCXYeChqMn43jS_AgzRVLfBAKK?usp=sharing
+
+2. Added FeatureEncoding.ipynb to create the final feature vector for headline and body. Please follow the instructions given in the notebook prior to running it. You would have to install a few dependencies. This notebook is not completed as of now. Just basic flow has been added. 
 
