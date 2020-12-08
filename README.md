@@ -14,3 +14,4 @@ Due to memory issues and limitations of the pre-trained skip thought vector gene
 
 2. Added NeuralFeatureGenerator.ipynb and StatisticalFeatureGenerator.ipynb. NeuralFeatureGenerator.ipynb - creates a neural embedding vector using Skip-thoughts. For each headline-body pair, a feature vector of dimension (1,4800) is generated. StatisticalFeatureGenerator.ipynb - creates a statistical vector based on Term frequencies. For each headline-body pair, a feature vector of dimension (1,10000) is generated. You would have to run the NeuralFeatureGenerator.ipynb notebook in a different environment because of the dependencies. But for the time being, you dont have to run any generator code since all the corresponding .npy files have been uploaded in the google drive folder mentioned in point 1
 
+3. ExternalFeatures.ipynb creates a 21 feature vector for each headline-body pair. Final Train set and test set external feature vectors have been uploaded on drive
